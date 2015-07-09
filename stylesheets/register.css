@@ -1,0 +1,73 @@
+html {
+  background: rgba(255, 255, 255, 1) url("../images2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  z-index: 1;
+  text-align: center;
+  background-color: #eb7260;
+  box-shadow: 0px 2px 2px 0px #FFFFFE;
+}
+
+.dial {
+  margin-top: -0.05em;
+  font-family: 'Megrim', cursive;
+  font-size: 6em;
+  color: #FFFFFE;
+  position: relative;
+}
+
+.register-div {
+  position: relative;
+  text-align: center;
+  background-color: #FFFFFE;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  margin-top: 2em;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #423f40;
+}
+
+.register-div div {
+  width: 107%;
+  color: #eb7260;
+}
+
+.radio-btn-label {
+  padding-top: 2em;
+}
+
+.register-div button {
+  background: #91ada9;
+  margin-left: 2em;
+  margin-top: 2em;
+  width: 17em;
+  margin-bottom: 2em;
+}
+
+.radio-btn-label {
+  margin-top: 2em;
+  color: #91ada9;
+}
+
+.represent-div {
+  z-index: 50;
+  background-color: gray;
+}
+
+.radio-buttons {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.radio-button-1 {
+  float: left;
+  position: relative;
+}

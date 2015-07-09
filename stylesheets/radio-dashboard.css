@@ -1,0 +1,71 @@
+body {
+  background-color: #4c4849;
+}
+
+.listen-header {
+  z-index: 1;
+  background-color: #FFFFFE;
+}
+
+.dial-low {
+  margin-top: -0.05em;
+  font-family: 'Megrim', cursive;
+  font-size: 2em;
+  right: 0 auto;
+}
+
+.dial-low a {
+  text-decoration: none;
+  right: 0 auto;
+  color: #eb7260;
+}
+
+.promo-dash-div {
+  width: 100%;
+}
+
+.promo-contacts {
+  position: relative;
+  display: inline-block;
+  margin-left: 2em;
+  margin-top: 3em;
+  width: 50%;
+}
+
+.promo-contacts h2 {
+  color: #eb7260;
+}
+
+.custom-restricted {
+  height: 15em;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.promo-artists {
+  position: absolute;
+  display: inline-block;
+  margin-top: 2em;
+  right: -28em;
+  width: 60em;
+}
+
+.promo-artists h2 {
+  color: #eb7260;
+}
+
+.promo-artist-div {
+  background-color: #FFFFFE;
+}
+
+.promo-contacts {
+  position: absolute;
+  display: inline-block;
+  margin-top: 2em;
+  width: 60em;
+}
+
+.promo-contacts-div {
+  background-color: #FFFFFE;
+}
