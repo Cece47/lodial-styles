@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="listen-html">
   <head>
     <meta charset="utf-8">
     <title>Listen - loDial</title>
@@ -34,23 +34,33 @@
         		  <div id="playhead"></div>
         </div>
       </div>
-        <a href="#"><i class="fa fa-chevron-down" id="down-icon"></i></a>
+        <a href="#"><i class="fa fa-chevron-right" id="down-icon"></i></a>
     </div>
 
 
       <form class="listen-form pure-form pure-form-aligned">
         <input class="comment-box pure-input-2-3" name="comment-box" placeholder="Comments"><br>
 
-        <div class="checkbox">
-          <input type="checkbox" name="cd" class="cd-checkbox" value="physical-cd"> Mail Me a Physical CD
-          <input type="checkbox" name="digital-cd" class="digital-cd" value="digital-cd"> Send me a Digital CD
-        </div>
+      <div class="checkboxes">
+        <label class="listen-options">
+          <input type="checkbox" name="mail" value="mail"/>
+            <span><i class="fa fa-envelope-o"></i> Send Me a Physical CD | </span>
+          </label>
+        <label class="listen-options">
+          <input type="checkbox" name="laptop" value="laptop">
+          <span><i class="fa fa-laptop"></i> Send me a Digital CD | </span>
+        </label>
+        <label class="listen-options">
+          <input type="checkbox" name="trash" value="trash">
+          <span><i class="fa fa-trash-o"></i> Delete from Artist List</span>
+        </label>
+      </div>
 
         <button class="btn-listen-pg">Submit +</button>
 
       </form>
     </div>
 
-    <script src="../scripts.js"></script>
+    <script src="../scripts/scripts.js"></script>
   </body>
 </html>

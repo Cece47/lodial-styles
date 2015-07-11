@@ -54,7 +54,7 @@ function moveplayhead(e) {
 		playhead.style.marginLeft = newMargLeft + "em";
 	}
 	if (newMargLeft < 0) {
-		playhead.style.marginLeft = "0em";
+		playhead.style.marginLeft = "0.5em";
 	}
 	if (newMargLeft > timelineWidth) {
 		playhead.style.marginLeft = timelineWidth + "em";
